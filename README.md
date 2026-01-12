@@ -38,3 +38,32 @@ The system leverages core OOP concepts to ensure the code is modular and scalabl
 1. **Clone the repository**:
    ```bash
    git clone [https://github.com/raymondoyondi/School-Management-System.git](https://github.com/raymondoyondi/School-Management-System.git)
+
+2.  **Navigate to the directory**:
+    ```bash
+    cd School-Management-System
+    ```
+3.  **Compile the source code** using your preferred compiler. For GCC/G++, you might use:
+    ```bash
+    g++ main.cpp -o school_management_system
+    ```
+    *(Adjust the command based on your main source file name and compiler.)*
+4.  **Run the executable**:
+    ```bash
+    ./school_management_system
+    ```
+---
+## 👋 Contributing
+We welcome contributions to enhance the School Management System! Whether it's bug fixes, new features, or improvements to the documentation, your help is appreciated.
+
+To contribute:
+1.  **Fork the repository** on GitHub.
+2.  **Create a new branch** for your feature or fix: `git checkout -b feature/AmazingFeature`
+3.  **Commit your changes** with descriptive commit messages: `git commit -m 'Add some AmazingFeature'`
+4.  **Push to the branch**: `git push origin feature/AmazingFeature`
+5.  **Open a Pull Request** against the `main` branch of the original repository, describing your changes and linking any relevant issues.
+
+Please ensure your code adheres to the project's coding standards and includes appropriate comments.
+---
+## ⚖️ License
+Distributed under the [MIT License](github.com). See the `LICENSE` file in the repository root for more information.

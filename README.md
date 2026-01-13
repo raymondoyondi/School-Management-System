@@ -43,15 +43,22 @@ The system leverages core OOP concepts to ensure the code is modular and scalabl
     ```bash
     cd School-Management-System
     ```
-3.  **Compile the source code** using your preferred compiler. For GCC/G++, you might use:
-    ```bash
-    g++ main.cpp -o school_management_system
+3.  **Create a build directory and run CMake**:
     ```
-    *(Adjust the command based on your main source file name and compiler.)*
-4.  **Run the executable**:
+    mkdir build
+    cd build
+    cmake ..
+    ```
+4.  **Compile the source code** using the generated build system:
+    ```
+    make
+    ```
+    
+5.  **Run the executable**:
     ```bash
     ./school_management_system
     ```
+    
 ---
 ## 👋 Contributing
 We welcome contributions to enhance the School Management System! Whether it's bug fixes, new features, or improvements to the documentation, your help is appreciated.
